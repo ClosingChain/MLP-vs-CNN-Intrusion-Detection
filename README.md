@@ -1,6 +1,6 @@
 # MLP vs CNN for Intrusion Detection System (IDS)
 
-Questo repository presenta uno studio comparativo tra un'architettura **Multi-Layer Perceptron (MLP)** e una **Convolutional Neural Network (CNN) 1D**. Il progetto valuta la capacità dei modelli di classificare il traffico di rete come lecito o malevolo partendo da dati tabulari.
+Questa repository presenta uno studio comparativo tra un'architettura **Multi-Layer Perceptron (MLP)** e una **Convolutional Neural Network (CNN) 1D**. Il progetto valuta la capacità dei modelli di classificare il traffico di rete come lecito o malevolo partendo da dati tabulari.
 
 ## 📁 Struttura del Progetto
 
