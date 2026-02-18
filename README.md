@@ -48,7 +48,7 @@ model = RilevatoreAttacchi(X_processed.shape[1], 64, 32).to(device)
 
 ## 📊 Il Dataset
 
-Per favorire la riproducibilità, il dataset (709 KB) è incluso direttamente nel repository. Include feature tecniche etichettate per distinguere tra traffico normale e intrusioni informatiche.
+Per favorire la riproducibilità, il dataset (709 KB) è incluso direttamente nella repository. Include feature tecniche etichettate per distinguere tra traffico normale e intrusioni informatiche.
 
 ## 🛠️ Installazione
 
