@@ -1,6 +1,7 @@
 # MLP vs CNN for Intrusion Detection System (IDS)
 
 Questo repository presenta uno studio comparativo tra un'architettura **Multi-Layer Perceptron (MLP)** e una **Convolutional Neural Network (CNN) 1D**. 
+
 Il progetto affronta un problema di **Supervised Learning** (Apprendimento Supervisionato) mirato alla **Classificazione Binaria** (Traffico Normale vs. Attacco), valutando la capacità dei modelli di identificare tentativi di intrusione all'interno di un traffico di rete rappresentato da dati tabulari.
 
 ## 📁 Struttura del Progetto
