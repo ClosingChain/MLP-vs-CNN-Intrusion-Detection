@@ -18,7 +18,7 @@ Il software è stato sviluppato in ambiente locale tramite l'IDE **PyCharm**, ad
 
 ### Preprocessing & Engineering
 - **Gestione Valori Mancanti**: I valori nulli in `encryption_used` vengono trattati come categoria "Unknown".
-- **Trasformazione**: Utilizzo di `ColumnTransformer` per applicare `StandardScaler` (feature numeriche) e `OneHotEncoder` (feature categoriche).
+- **Trasformazione**: Utilizzo di `ColumnTransformer` per applicare `StandardScaler` (features numeriche) e `OneHotEncoder` (features categoriche).
 - **Bilanciamento**: Utilizzo di split stratificati per mantenere la proporzione delle classi.
 
 ### Architetture dei Modelli
