@@ -50,7 +50,7 @@ model = RilevatoreAttacchi(X_processed.shape[1], 64, 32).to(device)
 
 Per favorire la riproducibilità, il dataset (709 KB) è incluso direttamente nel repository. Include feature tecniche etichettate per distinguere tra traffico normale e intrusioni informatiche.
 
-## 🛠️ Installazione ed Esecuzione
+## 🛠️ Installazione
 
 Il codice richiede **Python 3.8+**. 
 
@@ -63,7 +63,8 @@ Il codice richiede **Python 3.8+**.
    ```bash
     pip install -r requirements.txt
 
-4. 🚀 Esecuzione
+## 🚀 Esecuzione
+
 Per avviare la pipeline completa (preprocessing, addestramento dei modelli e confronto tramite 5-fold Cross-Validation), eseguire il comando:
    ```bash
     python main.py
