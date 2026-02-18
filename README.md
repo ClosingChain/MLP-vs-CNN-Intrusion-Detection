@@ -1,6 +1,7 @@
 # MLP vs CNN for Intrusion Detection System (IDS)
 
-Questa repository presenta uno studio comparativo tra un'architettura **Multi-Layer Perceptron (MLP)** e una **Convolutional Neural Network (CNN) 1D**. Il progetto valuta la capacità dei modelli di classificare il traffico di rete come lecito o malevolo partendo da dati tabulari.
+Questo repository presenta uno studio comparativo tra un'architettura **Multi-Layer Perceptron (MLP)** e una **Convolutional Neural Network (CNN) 1D**. 
+Il progetto affronta un problema di **Supervised Learning** (Apprendimento Supervisionato) mirato alla **Classificazione Binaria** (Traffico Normale vs. Attacco), valutando la capacità dei modelli di identificare tentativi di intrusione all'interno di un traffico di rete rappresentato da dati tabulari.
 
 ## 📁 Struttura del Progetto
 
@@ -17,6 +18,7 @@ Il software è stato sviluppato in ambiente locale tramite l'IDE **PyCharm**, ad
 ## ⚙️ Caratteristiche Tecniche
 
 ### Preprocessing & Engineering
+- **Global Seed (42)**: È stato fissato un seme di casualità unico. Questo garantisce che i risultati siano **100% riproducibili**: i pesi iniziali dei neuroni e la divisione dei dati saranno identici a ogni esecuzione.
 - **Gestione Valori Mancanti**: I valori nulli in `encryption_used` vengono trattati come categoria "Unknown".
 - **Trasformazione**: Utilizzo di `ColumnTransformer` per applicare `StandardScaler` (features numeriche) e `OneHotEncoder` (features categoriche).
 - **Bilanciamento**: Utilizzo di split stratificati per mantenere la proporzione delle classi con l'uso di `stratify`.
