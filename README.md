@@ -56,15 +56,18 @@ Il codice richiede **Python 3.8+**.
 
 1. **Clonare il repository**:
    ```bash
-   git clone [https://github.com/ClosingChain/MLP-vs-CNN-Intrusion-Detection.git]([https://github.com/ClosingChain/MLP-vs-CNN-Intrusion-Detection.git)
+   git clone https://github.com/ClosingChain/MLP-vs-CNN-Intrusion-Detection.git
    cd MLP-vs-CNN-Intrusion-Detection
+   ```
 
 2. Installare le librerie necessarie:
    ```bash
     pip install -r requirements.txt
+   ```
 
 ## 🚀 Esecuzione
 
 Per avviare la pipeline completa (preprocessing, addestramento dei modelli e confronto tramite 5-fold Cross-Validation), eseguire il comando:
    ```bash
     python main.py
+```
