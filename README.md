@@ -19,7 +19,7 @@ Il software è stato sviluppato in ambiente locale tramite l'IDE **PyCharm**, ad
 ### Preprocessing & Engineering
 - **Gestione Valori Mancanti**: I valori nulli in `encryption_used` vengono trattati come categoria "Unknown".
 - **Trasformazione**: Utilizzo di `ColumnTransformer` per applicare `StandardScaler` (features numeriche) e `OneHotEncoder` (features categoriche).
-- **Bilanciamento**: Utilizzo di split stratificati per mantenere la proporzione delle classi.
+- **Bilanciamento**: Utilizzo di split stratificati per mantenere la proporzione delle classi con l'uso di `stratify`.
 
 ### Architetture dei Modelli
 - **MLP**: Rete densa con strati da 64 e 32 neuroni e attivazione ReLU.
